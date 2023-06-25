@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	outline: none;
+	padding: 0;
+	box-sizing: border-box;
+	line-height: 1.4rem;
+	scrollbar-width: thin;
+	scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+	font-family: YekanBakh, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transition: color 100ms ease-out, background-color 100ms ease-out, border-color 100ms ease-out;
+}
+
+*::-webkit-scrollbar {
+	width: 6px;
+	height: 5px;
+}
+
+*::-webkit-scrollbar-track {
+	background: transparent;
+	border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: rgba(134, 134, 134, 0.5);
+	border-radius: 5px;
+	border: transparent;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: YekanBakh, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.main-template {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	flex: 1;
+}
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+textarea:focus,
+input:focus {
+	outline: none;
+}

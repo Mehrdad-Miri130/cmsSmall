@@ -1,4 +1,3 @@
-import React from 'react';
 import useBlogList from 'components/Blog/List/hooks/useBlogList';
 import BlogItem from 'components/_Core/UI/BlogItem/BlogItem';
 

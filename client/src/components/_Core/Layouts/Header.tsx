@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button, Modal } from 'antd';
 import useModal from 'core/hooks/useModal';
 import Login from 'components/Login/Login';

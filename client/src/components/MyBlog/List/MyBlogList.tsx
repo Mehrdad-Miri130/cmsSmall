@@ -1,4 +1,3 @@
-import React from 'react';
 import BlogItem from 'components/_Core/UI/BlogItem/BlogItem';
 import useMyBlogList from 'components/MyBlog/List/hooks/useMyBlogList';
 import { Button, Modal } from 'antd';

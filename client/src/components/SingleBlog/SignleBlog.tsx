@@ -1,4 +1,3 @@
-import React from 'react';
 import { useSingleBlogQuery } from 'components/SingleBlog/hooks/react-query/useSingleBlogQuery';
 import { IOrder } from 'core/types/blogType';
 

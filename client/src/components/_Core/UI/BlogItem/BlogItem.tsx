@@ -4,7 +4,6 @@ import useRoute from 'core/hooks/useRoute';
 import { Link } from 'react-router-dom';
 import { useMyBlogDeleteQuery } from 'components/MyBlog/Create/hooks/react-query/useMyBlogDeleteQuery';
 import { useAdminBlogDeleteQuery } from 'components/AdminAllBlog/Create/hooks/react-query/useAdminBlogDeleteQuery';
-import { IBlog } from 'core/types/blogType';
 import { useDispatch } from 'react-redux';
 import { setBlogId } from 'core/store/slice/mainInfo/mainInfoSlice';
 
